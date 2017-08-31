@@ -1,0 +1,96 @@
+body {
+  font-size: 0.12rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .mark .wrap {
+    width: 3rem;
+    height: 4rem;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 8px; }
+    .mark .wrap .wrap-top {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .mark .wrap .wrap-top img {
+        width: 1.3rem;
+        height: 0.45rem; }
+      .mark .wrap .wrap-top h2 {
+        color: #3e3d42;
+        font-weight: normal; }
+  .mark .main {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px; }
+    .mark .main .tel {
+      border-bottom: 1px solid #ccc;
+      position: relative;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+      .mark .main .tel img {
+        width: 0.14rem;
+        height: 0.22rem;
+        position: absolute;
+        left: 5px; }
+      .mark .main .tel ::-webkit-input-placeholder {
+        font-size: 0.1rem;
+        color: #a2a2a2; }
+      .mark .main .tel input {
+        margin-left: 30px;
+        border-width: 0;
+        padding-top: 3px; }
+    .mark .main .pwd {
+      border-bottom: 1px solid #ccc;
+      position: relative;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+      .mark .main .pwd img {
+        width: 0.14rem;
+        height: 0.2rem;
+        position: absolute;
+        left: 5px; }
+      .mark .main .pwd ::-webkit-input-placeholder {
+        font-size: 0.1rem;
+        color: #a2a2a2; }
+      .mark .main .pwd input {
+        margin-left: 30px;
+        border-width: 0;
+        padding-top: 3px; }
+    .mark .main .login {
+      background: #2fba77;
+      margin-top: 20px;
+      border-radius: 5px; }
+      .mark .main .login button {
+        width: 100%;
+        background: transparent;
+        border-width: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: #fff; }
+
+.header {
+  height: 0.5rem;
+  background: #393a3f;
+  color: #fbfcfe;
+  line-height: 0.5rem; }
+
+/*# sourceMappingURL=style.css.map */
